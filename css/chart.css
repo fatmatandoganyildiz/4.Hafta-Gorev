@@ -1,0 +1,63 @@
+/* <div class="chart">
+    <div class="topElements">
+      <h3 class="header">Instagram Subscibers</h3>
+      <div class="gain-lost">
+        <div class="gain">
+          <div class="greenDot"></div>
+          <div class="gained">Gained</div>
+        </div>
+        <div class="lost">
+          <div class="redDot"></div>
+          <div class="lost">Gained</div>
+        </div>
+      </div>
+    </div>
+    <canvas id="myChart"></canvas>
+  </div> */
+
+  .chart {
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 15px;
+  
+  }
+  .topElements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .gain-lost {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .gain {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+  }
+  .greenDot {
+    background-color: rgb(19, 176, 19);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+  }
+  .lost {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+  
+  }
+  .redDot {
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+  }
+  

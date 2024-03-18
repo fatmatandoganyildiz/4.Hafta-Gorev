@@ -1,0 +1,46 @@
+.cards{
+    margin-top: 32px;
+    display: flex;
+    gap:16px;
+}
+.brandCard{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #fff;
+    border-radius: 12px;
+    padding: 16px;
+    cursor: pointer;
+}
+.brandCard:hover{
+    background-color: #fff;
+}
+.brandCard .fa-twitter{
+    color: #1da1f2;
+    font-size: 32px;
+}
+.brandCard .fa-instagram{
+    color: #7b4ed4;
+    font-size: 32px;
+}
+.brandCard .fa-youtube{
+    color: red;
+    font-size: 32px;
+}
+.brandCard .fa-facebook{
+    color: rgb(19, 35, 179);
+    font-size: 32px;
+}
+.brandCard .title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.brandCard .subtitle{
+    font-size: 12px;
+    color: gray;
+}
+.brandCard .fa-ellipsis-h{
+    align-self: flex-end;
+    margin-top: 12px;
+}
